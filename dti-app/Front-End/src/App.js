@@ -11,6 +11,7 @@ function App() {
         <Routes>
           <Route path ='/' exact />
         </Routes>
+          
       </Router>
     </div>
   );
