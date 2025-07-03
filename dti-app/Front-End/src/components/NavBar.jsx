@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
-import './NavBar.css';
+import './Components.css';
 import DTI from '../images/DTIW.png';
-import { NavLink } from 'react-router-dom';
 
 
 function NavBar() {
@@ -28,10 +27,10 @@ function NavBar() {
                 </div>  
                 <div id="links" >
                     <ul>
-                        <li><a href="AccountSettings">Account Settings</a></li>
-                        <li><a href="Login">Login</a></li>
-                        <li><a href="Contact">Contact</a></li>
-                        <li><a id ="signupbutton" href="SignUp">SignUp</a></li>
+                        <li><a href="/AccountSettings">Account Settings</a></li>
+                        <li><a href="/login">Login</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/register">Register</a></li>
                     </ul>
                 </div>
                    
